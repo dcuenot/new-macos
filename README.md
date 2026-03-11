@@ -6,11 +6,11 @@ https://www.agnosys.com/presentation-de-lagencement-simplifie-des-fenetres-sous-
 [x] iTerm
 [x] xcode
 [x] VSCode
-[] Claude
+[ ] Claude
 [x] Love my ZSH
-[] cat
-[] node / python / java / docker
-[] MacOS beta
-ƒ[] Config mail
-[] clé ssh pour Github
-[] accès home assistant / routeur
+[ ] cat
+[ ] node / python / java / docker
+[ ] MacOS beta
+[ ] Config mail
+[ ] clé ssh pour Github
+[ ] accès home assistant / routeur
