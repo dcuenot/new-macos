@@ -7,7 +7,7 @@ https://www.agnosys.com/presentation-de-lagencement-simplifie-des-fenetres-sous-
 - [x] VSCode
 - [ ] Claude
 - [x] Love my ZSH
-- [ ] cat
+- [x] RunCat
 - [ ] node / python / java / docker
 - [ ] MacOS beta
 - [ ] Config mail
