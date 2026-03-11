@@ -13,7 +13,7 @@ https://www.agnosys.com/presentation-de-lagencement-simplifie-des-fenetres-sous-
 - [ ] Config mail
 - [ ] clé SSH pour Github
 - [ ] accès home assistant / routeur
-- [ ] dévérouillage Apple Watch
+- [x] dévérouillage Apple Watch
 
 
 ```
