@@ -10,7 +10,7 @@ https://www.agnosys.com/presentation-de-lagencement-simplifie-des-fenetres-sous-
 - [x] RunCat
 - [x] node / python / java / docker
 - [x] MacOS beta
-- [ ] Config mail
+- [x] Config mail
 - [ ] clé SSH pour Github
 - [ ] accès home assistant / routeur
 - [x] dévérouillage Apple Watch
