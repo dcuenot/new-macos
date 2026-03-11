@@ -1,5 +1,6 @@
 # Setup de mon nouveau Macbook Air
 
+Utilisation des fenêtres :
 https://www.agnosys.com/presentation-de-lagencement-simplifie-des-fenetres-sous-macos-sequoia/
 
 - [x] iTerm
@@ -15,6 +16,7 @@ https://www.agnosys.com/presentation-de-lagencement-simplifie-des-fenetres-sous-
 - [x] accès home assistant / routeur
 - [x] dévérouillage Apple Watch
 
+## Installation des logiciels avec brew
 
 ```
 # 1. Socle
@@ -43,12 +45,13 @@ Dans ~/.zshrc, ajouter:
 # nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && source "$(brew --prefix)/opt/nvm/nvm.sh"
+```
 
 
 
-# Config Claude Code — Migration nouvel ordi
+## Config Claude Code — Migration nouvel ordi
 
-## Plugins activés (enabledPlugins)
+### Plugins activés (enabledPlugins)
 
 | Plugin | Source |
 |---|---|
@@ -60,7 +63,7 @@ export NVM_DIR="$HOME/.nvm"
 | `everything-claude-code` | `everything-claude-code` |
 | `ui-ux-pro-max` | `ui-ux-pro-max-skill` |
 
-## Settings importants
+### Settings importants
 
 | Clé | Valeur | Description |
 |---|---|---|
@@ -68,7 +71,7 @@ export NVM_DIR="$HOME/.nvm"
 | `effortLevel` | `"high"` | Niveau d'effort maximal par défaut |
 | `skipDangerousModePermissionPrompt` | `true` | Pas de confirmation pour les actions en mode dangereux |
 
-## Fichier settings.json complet
+### Fichier settings.json complet
 
 ```json
 {
@@ -89,7 +92,7 @@ export NVM_DIR="$HOME/.nvm"
 }
 ```
 
-## Transfert sur le nouvel ordi
+### Transfert sur le nouvel ordi
 
 ```bash
 # Créer le dossier si nécessaire
@@ -102,7 +105,7 @@ scp ~/.claude/settings.json user@ip-nouvel-ordi:~/.claude/settings.json
 nano ~/.claude/settings.json
 ```
 
-## ⚠️ Points d'attention après migration
+### ⚠️ Points d'attention après migration
 
 - `chrome-devtools-mcp` → source tierce, peut nécessiter une réinstallation manuelle
 - `everything-claude-code` → source tierce, vérifier la disponibilité
