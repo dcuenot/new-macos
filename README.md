@@ -3,8 +3,14 @@
 
 https://www.agnosys.com/presentation-de-lagencement-simplifie-des-fenetres-sous-macos-sequoia/
 
-iTerm
-xcode
-VSCode
-Claude
-Love my ZSH
+[x] iTerm
+[x] xcode
+[x] VSCode
+[] Claude
+[x] Love my ZSH
+[] cat
+[] node / python / java / docker
+[] MacOS beta
+ƒ[] Config mail
+[] clé ssh pour Github
+[] accès home assistant / routeur
