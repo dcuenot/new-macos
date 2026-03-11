@@ -12,7 +12,7 @@ https://www.agnosys.com/presentation-de-lagencement-simplifie-des-fenetres-sous-
 - [x] MacOS beta
 - [x] Config mail
 - [x] clé SSH pour Github
-- [ ] accès home assistant / routeur
+- [x] accès home assistant / routeur
 - [x] dévérouillage Apple Watch
 
 
