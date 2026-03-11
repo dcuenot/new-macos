@@ -44,6 +44,71 @@ Dans ~/.zshrc, ajouter:
 export NVM_DIR="$HOME/.nvm"
 [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && source "$(brew --prefix)/opt/nvm/nvm.sh"
 
+
+
+# Config Claude Code — Migration nouvel ordi
+
+## Plugins activés (enabledPlugins)
+
+| Plugin | Source |
+|---|---|
+| `superpowers` | `claude-plugins-official` |
+| `chrome-devtools-mcp` | `chrome-devtools-plugins` |
+| `frontend-design` | `claude-plugins-official` |
+| `swift-lsp` | `claude-plugins-official` |
+| `figma` | `claude-plugins-official` |
+| `everything-claude-code` | `everything-claude-code` |
+| `ui-ux-pro-max` | `ui-ux-pro-max-skill` |
+
+## Settings importants
+
+| Clé | Valeur | Description |
+|---|---|---|
+| `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS` | `"1"` | Active le mode multi-agents (expérimental) |
+| `effortLevel` | `"high"` | Niveau d'effort maximal par défaut |
+| `skipDangerousModePermissionPrompt` | `true` | Pas de confirmation pour les actions en mode dangereux |
+
+## Fichier settings.json complet
+
+```json
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  },
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true,
+    "chrome-devtools-mcp@chrome-devtools-plugins": true,
+    "frontend-design@claude-plugins-official": true,
+    "swift-lsp@claude-plugins-official": true,
+    "figma@claude-plugins-official": true,
+    "everything-claude-code@everything-claude-code": true,
+    "ui-ux-pro-max@ui-ux-pro-max-skill": true
+  },
+  "skipDangerousModePermissionPrompt": true,
+  "effortLevel": "high"
+}
+```
+
+## Transfert sur le nouvel ordi
+
+```bash
+# Créer le dossier si nécessaire
+mkdir -p ~/.claude
+
+# Copier le fichier (depuis l'ancien ordi via scp)
+scp ~/.claude/settings.json user@ip-nouvel-ordi:~/.claude/settings.json
+
+# Ou copier manuellement et coller le contenu ci-dessus dans :
+nano ~/.claude/settings.json
+```
+
+## ⚠️ Points d'attention après migration
+
+- `chrome-devtools-mcp` → source tierce, peut nécessiter une réinstallation manuelle
+- `everything-claude-code` → source tierce, vérifier la disponibilité
+- `ui-ux-pro-max` → source tierce, vérifier la disponibilité
+- Les plugins `claude-plugins-official` devraient se résoudre automatiquement
+
 # pyenv
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
