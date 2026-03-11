@@ -25,13 +25,13 @@ brew install nvm pyenv pyenv-virtualenv
 
 # 3. DevOps
 brew install --cask docker
-brew install kubectl helm terraform awscli gh
+brew install kubectl helm opentofu awscli gh
 
 # 4. Git tooling
 brew install git-delta lazygit
 
 # 5. Apps GUI
-brew install --cask iterm2 rectangle visual-studio-code tableplus insomnia 1password
+brew install --cask iterm2 visual-studio-code tableplus
 
 # 6. BDD locales
 brew install postgresql@16 redis
