@@ -5,7 +5,7 @@ https://www.agnosys.com/presentation-de-lagencement-simplifie-des-fenetres-sous-
 - [x] iTerm
 - [x] xcode
 - [x] VSCode
-- [ ] Claude
+- [ ] Claude + liste of MCP / skills (regarder pour passer au skills v2)
 - [x] Love my ZSH
 - [x] RunCat
 - [ ] node / python / java / docker
