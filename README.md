@@ -116,3 +116,13 @@ nano ~/.claude/settings.json
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
+
+
+## Configuration réseau
+<img width="734" height="592" alt="image" src="https://github.com/user-attachments/assets/c6589fe5-fbf2-4939-b2de-562421037268" />
+
+IP fixes :
+* 00:11:32:5E:BA:12 - 192.168.0.116
+* D8:3A:DD:CA:89:1A - 192.168.0.107
+* 18:41:C3:EA:FC:50 - 192.168.0.111
+
