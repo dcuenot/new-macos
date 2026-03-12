@@ -127,3 +127,4 @@ IP fixes :
 * D8:3A:DD:CA:89:1A - 192.168.0.107
 * 18:41:C3:EA:FC:50 - 192.168.0.111
 
+Reboot toutes les nuits à 4h
