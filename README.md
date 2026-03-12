@@ -113,6 +113,7 @@ nano ~/.claude/settings.json
 - Les plugins `claude-plugins-official` devraient se résoudre automatiquement
 
 # pyenv
+```
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 ```
